@@ -5,7 +5,14 @@ Steps
 
 
 REFERENCES
-Spiders: 						http://search.cpan.org/search?m=all&q=spider&s=1&n=50
-WWW-Spiders						http://search.cpan.org/~bytbox/WWW-Spider-0.01_10/lib/WWW/Spider.pm
-Thread::Resource::RWLock		http://search.cpan.org/~darnold/Thread-Resource-RWLock-2.01/lib/Thread/Resource/RWLock.pm
-Thread::Queue::Queueable		http://search.cpan.org/~darnold/Thread-Queue-Duplex-0.92/lib/Thread/Queue/Queueable.pod
+Spiders 						
+http://search.cpan.org/search?m=all&q=spider&s=1&n=50
+
+WWW-Spiders						
+http://search.cpan.org/~bytbox/WWW-Spider-0.01_10/lib/WWW/Spider.pm
+
+Thread::Resource::RWLock		
+http://search.cpan.org/~darnold/Thread-Resource-RWLock-2.01/lib/Thread/Resource/RWLock.pm
+
+Thread::Queue::Queueable		
+http://search.cpan.org/~darnold/Thread-Queue-Duplex-0.92/lib/Thread/Queue/Queueable.pod
