@@ -1,17 +1,31 @@
 #!/usr/bin/perl -w
+use strict;
+use warnings;
 use WWW::Spider;
 
-my $spider = new WWW::Spider;
-$spider = new WWW::Spider({UASTRING=>"ChuiBot"});
- 
-print $spider->uastring . "\n";
-$spider->uastring('New UserAgent String');
-$spider->user_agent(new LWP::UserAgent);
- 
-#basic stuff
-#print $spider->get_page_response('http://search.cpan.org/') -> content;
-#print $spider->get_page_content('http://search.cpan.org/');
-@urls = $spider->get_links_from('http://www.greenmediaagency.com/'); #get array of URLs
-foreach(@urls){
-	print $_ . "\n";
+sub main{
+	my $website = "http://en.wikipedia.org/wiki/Artificial_intelligence";
+	my $spider = new WWW::Spider;
+
+	$spider = new WWW::Spider({UASTRING => "30Bbot"});
+	 
+	print $spider->uastring . "\n";
+	$spider->uastring('New UserAgent String');
+	$spider->user_agent(new LWP::UserAgent);
+	 
+	my $content = $spider->get_page_content($website);
+	open (CONTENT_FILE, '>>artificial_intelligence.txt');
+ 	print CONTENT_FILE $content;
+ 	close (CONTENT_FILE); 
+	
+	my @urls = $spider->get_links_from($website);
+	open (URL_FILE, '>>artificial_intelligence_links.txt');
+	foreach my $url (@urls){
+ 		print URL_FILE "$url\n";
+	}
+ 	close (URL_FILE); 
+
+ 	print "Bye...\n";
 }
+
+main(@ARGV);
