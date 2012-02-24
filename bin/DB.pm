@@ -90,18 +90,8 @@ sub DESTROY{
 	$self = undef;
 }
 
-
  1;
 
- 
 __END__
 
-TODO
-1 - Checkear creditos
-2 - Contar errores
-3 - Terminar y guardar la parte con el error y causa del error
-4 - Terminar y guardar el paquete con el error y causa del error
-5 - Crear XML para simple campaign, crear partes
-6 - Crear partes a partir
-7 - Enviar SMS simple
-8 - Crear XML para complex campaign (igual que el paso 5, solo que llevara campos adicionales que luego seran sustituidos durante el envio)
+Database Manager

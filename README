@@ -2,7 +2,7 @@ Steps
 1 - Install WWW-Spiders
 2 - Install Thread-Queue-Duplex
 3 - Install Thread-Resource-RWLock
-
+4 - Install Marpa
 
 REFERENCES
 Spiders 						
@@ -16,3 +16,44 @@ http://search.cpan.org/~darnold/Thread-Resource-RWLock-2.01/lib/Thread/Resource/
 
 Thread::Queue::Queueable		
 http://search.cpan.org/~darnold/Thread-Queue-Duplex-0.92/lib/Thread/Queue/Queueable.pod
+
+HTML::Parser
+http://search.cpan.org/~gaas/HTML-Parser-3.69/Parser.pm
+
+Marpa::HTML
+http://search.cpan.org/~jkegl/Marpa-HTML-0.112000/lib/Marpa/HTML/Doc/HTML.pod
+https://metacpan.org/module/Marpa::HTML
+http://htmlparsing.com/perl.html
+
+		Pre-requisites of Marpa::HTML
+		Test::More (0.72) is installed, but we need version >= 0.94
+		List::Util (1.19) is installed, but we need version >= 1.21
+		Scalar::Util (1.19) is installed, but we need version >= 1.21
+		Data::Dumper (2.121_14) is installed, but we need version >= 2.125
+		Marpa::PP is not installed
+
+		Test::More
+		http://search.cpan.org/~mschwern/Test-Simple-0.98/lib/Test/More.pm
+
+		List::Util & Scalar::Util
+		http://search.cpan.org/~gbarr/Scalar-List-Utils-1.23/lib/List/Util.pm
+
+		Data::Dumper
+		http://search.cpan.org/~smueller/Data-Dumper-2.131/Dumper.pm
+
+		Marpa::PP
+		http://search.cpan.org/~jkegl/Marpa-PP-0.012000/pod/Marpa_PP.pod 
+
+				Pre-requisites of Marpa::PP
+				Storable (2.18) is installed, but we need version >= 2.21
+				Task::Weaken is not installed
+				Optional prerequisite PPI is not installed
+
+				Storable
+				http://search.cpan.org/~ams/Storable-2.30/Storable.pm
+
+				Task::Weaken
+				http://search.cpan.org/~adamk/Task-Weaken-1.04/lib/Task/Weaken.pm
+
+				PPI
+				http://search.cpan.org/~adamk/PPI-1.215/lib/PPI.pm
