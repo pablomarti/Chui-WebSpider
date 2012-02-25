@@ -1,0 +1,10 @@
+Revision history for Perl extension Data::Inspect.
+
+0.02  Sat Mar 21 2009
+        - added recursive inspection feature
+        - fixed some tests and perldoc
+
+0.01  Sat Mar 14 2009
+	- original version; created by h2xs 1.23 with options
+		-AX Data::Inspect
+

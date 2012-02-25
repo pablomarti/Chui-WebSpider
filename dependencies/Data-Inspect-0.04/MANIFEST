@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Data-Inspect.t
+lib/Data/Inspect.pm
+META.yml                                 Module meta-data (added by MakeMaker)
